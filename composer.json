@@ -1,0 +1,28 @@
+{
+    "name": "wiseguydigital/assetically",
+    "description": "A laravel package for handling typical web assets",
+    "authors": [{
+        "name": "Wiseguy Digital",
+        "email": "studio@wiseguydigital.com"
+    }],
+    "require": {
+        "php": ">=5.3.0",
+        "illuminate/support": "4.0.*",
+        "kriswallsmith/assetic": "1.2.*@dev",
+        "leafo/lessphp": "0.4.*@dev",
+        "natxet/CssMin": "dev-master"
+    },
+    "require-dev": {
+        "orchestra/testbench": "2.0.*"
+    },
+    "autoload": {
+        "classmap": [
+            "src/migrations",
+            "tests/AsseticallyTestCase.php"
+        ],
+        "psr-0": {
+            "Wiseguydigital\\Assetically\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
